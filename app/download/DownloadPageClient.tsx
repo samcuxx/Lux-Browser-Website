@@ -162,7 +162,7 @@ export default function DownloadPageClient({
                   href={
                     windowsAsset?.browser_download_url ??
                     release?.html_url ??
-                    "https://github.com/samcuxx/my-browser/releases"
+                    "https://github.com/samcuxx/Lux-Browser/releases"
                   }
                   target="_blank"
                   rel="noreferrer noopener"
@@ -231,7 +231,7 @@ export default function DownloadPageClient({
                 </span>
                 <a
                   className="underline decoration-dotted decoration-slate-400 dark:decoration-slate-500 hover:decoration-slate-600 dark:hover:decoration-slate-300 hover:text-slate-700 dark:hover:text-slate-200"
-                  href="https://github.com/samcuxx/my-browser/releases"
+                  href="https://github.com/samcuxx/Lux-Browser/releases"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
