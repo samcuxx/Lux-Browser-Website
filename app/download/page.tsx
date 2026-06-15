@@ -57,11 +57,11 @@ type GitHubRelease = {
 async function getLatestRelease(): Promise<GitHubRelease | null> {
   try {
     const res = await fetch(
-      "https://api.github.com/repos/samcuxx/my-browser/releases/latest",
+      "https://api.github.com/repos/samcuxx/Lux-Browser/releases/latest",
       {
         next: { revalidate: 3600 },
         headers: { Accept: "application/vnd.github+json" },
-      }
+      },
     );
     if (!res.ok) return null;
     const data = (await res.json()) as GitHubRelease;
